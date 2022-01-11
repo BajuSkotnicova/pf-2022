@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .landing {
+    width: 100%;
+    min-height: 100vh;
+    background: url("./picture.jpg");
+    background-size: cover;
+    padding: 0rem 0rem;
+  }
+  
+  
+  .big-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    color:  rgb(221, 214, 214);
+  }
+
+  .greetings {
+
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(221, 214, 214);
+
+  }
+
+  .wishes {
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    right:65%;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(221, 214, 214);
+  }
+
+
+  .intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .slider {
+    background: rgb(97, 105, 109);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
+  
+  .intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .hide {
+    background: black;
+    overflow: hidden;
+  }
+  
+  .hide span {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+
+  @media (max-width:1024px){
+    .bigtext{
+        top: 20%;
+        left: 1%;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .greetings {
+
+      position: absolute;
+      top: 45%;
+      left: 4%;
+      right:65%;
+      font-size: 2rem;
+      font-family: "Montserrat", sans-serif;
+      color: rgb(221, 214, 214);
+    
+      }
+
+      .wishes {
+        position: absolute;;
+        top: 45%;
+        left:35%;
+        font-size: 1rem;
+        font-family: "Montserrat", sans-serif;
+        color:rgb(221, 214, 214);
+      }
+      .landing {
+        width: 100%;
+        min-height: 100vh;
+        background: url("./picture.jpg");
+        background-size: cover;
+        padding: 0rem 0rem;
+       }
+
+}
+
+    @media (max-width: 768px){
+        .bigtext{
+            top: 15%;
+            left: 4%;
+            align-items: left;
+            font-size: 3rem;
+            position: absolute;
+            display: block;
+        }
+
+        .greetings {
+
+            position: absolute;
+            top: 40%;
+            left: 4%;
+            font-size: 2rem;
+            font-family: "Montserrat", sans-serif;
+            color: rgb(221, 214, 214);
+        
+          }
+
+          .wishes {
+            position: absolute;
+            text-align: left;
+            display: block;
+            top: 60%;
+            left: 4%;
+            right:65%;
+            font-size: 1rem;
+            font-family: "Montserrat", sans-serif;
+            color: rgb(221, 214, 214);
+          }
+          .landing {
+            width: 100%;
+            min-height: 100vh;
+            background: url("./picture.jpg");
+            background-size: cover;
+            padding: 0rem 0rem;
+          }
+        
+}
+
